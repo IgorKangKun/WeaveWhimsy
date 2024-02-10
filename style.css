@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main {
+    background-color: #fce5ca;
+    padding: 50px;
+}
+
+footer {
+    background-color: #2B3035;
+    
+}
+
+.fa-heart{
+    margin:10px 15px 0px 10px;
+    color: rgb(227, 200, 163); 
+    font-size: 25px;
+}
+
+.fa-bag-shopping{   
+    margin:10px 15px 0px 10px;
+    color: rgb(227, 200, 163); 
+    font-size: 25px;
+}
+
+.fa-circle-user {   
+    margin:10px 15px 0px 10px;
+    color: rgb(227, 200, 163); 
+    font-size: 25px;
+}
+
+h1.titulo { 
+    text-align: center;
+    font-size: max(40px, 1vw);
+    margin: 10px;
+    color: rgb(227, 200, 163);
+    text-shadow: 1px 1px 1px white;
+}
+
+.nav-item>a, .dropdown>a, .dropdown-content>a{
+    color: #e3c8a3;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.dropdown-menu {
+ 
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.488);
+}
+
+.c-risco {
+    background-color: #e3c8a3;
+    border: 6px solid #e3c8a3;
+    border-radius: 40%;
+}
+
+.c-item {
+    height: 500px;
+}
+
+
+
+
+
+
+.Arrivals{
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+}
+
+#tituloMain {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    font-size: 50px;
+    color: black; 
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425); 
+}
+  
+.Container>p {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-circle-left,.fa-circle-right{
+    font-size: 40px;
+}
+
+.foto1, .foto2, .foto3, .foto4 {
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.485);
+    border-radius: 10px;
+    height: 50vh;
+    width: 20vw;
+    margin: 20px 20px 2px 20px;
+}
+
+.pontos {
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+}
+
+
+
+
+
+
+
+.Collections {
+    background-image: url('imagens/fotoCollection.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.tituloCollection {
+    font-size: 200px;
+    display:inline-block;
+    position: relative;  
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    color: black ;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.479);
+}
+
+.button {
+    display:inline-block;
+    position: absolute;  
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    color: black ;
+    border: 5px solid black;   
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.479);
+    font-size: 30px; 
+}
+
+.button:hover {
+    transition-duration: 0.5s;
+    border: 3px solid black;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info {
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#fce5ca;
+}
+
+.fa-truck-fast{
+    font-size: 40px;
+    margin-left:20px;
+} 
+
+.fa-medal{
+    font-size: 40px;
+    margin-left: 55px;
+}
+
+.fa-sack-dollar {
+    font-size: 40px;
+    margin-left:45px ;
+}
+
+.fa-comment{
+    font-size: 40px;
+    margin-left:25px;
+}
+
+.fa-circle-arrow-up {  
+    font-size: 50px;
+    color: rgb(227, 200, 163);
+    position: relative;  
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.fa-instagram{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+.fa-instagram:hover {
+    color:deeppink;
+}
+
+.fa-facebook-f{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+.fa-facebook-f:hover {
+    color: dodgerblue;
+}
+
+.fa-x-twitter{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+.fa-x-twitter:hover{
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    text-shadow: 0.3px 0.3px 0.3px white;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;  
+    justify-content: center ;
+    color:white;
+    background-color: #212529;
+    height: 60px;
+    font-size: 10px;
+}
+
+.final{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.final>a { 
+    font-size: 20px;
+    margin: 10px;
+    color:rgba(255, 255, 255, 0.518); 
+    text-decoration: none;
+}
+
+.final>a:hover { 
+    font-size: 20px;
+    margin: 10px;
+    color: white; 
+    text-decoration: none;
+}
+
+
+.tituloFooter{
+    color:white;
+    text-align: center;
+}
