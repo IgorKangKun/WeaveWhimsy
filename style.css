@@ -20,6 +20,8 @@ footer {
     
 }
 
+/*Navigation Bar*/
+
 .fa-heart{
     margin:10px 15px 0px 10px;
     color: rgb(227, 200, 163); 
@@ -56,7 +58,7 @@ h1.titulo {
 }
 
 .dropdown-menu {
- 
+    
     padding: 10px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -70,13 +72,8 @@ h1.titulo {
     border-radius: 40%;
 }
 
-.c-item {
-    height: 500px;
-}
 
-
-
-
+/*NEW ARRIVAL*/
 
 
 .Arrivals{
@@ -122,53 +119,11 @@ h1.titulo {
 
 
 
-
-
-.Collections {
-    background-image: url('imagens/fotoCollection.jpg');
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.tituloCollection {
-    font-size: 200px;
-    display:inline-block;
-    position: relative;  
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
-    color: black ;
-    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.479);
-}
-
-.button {
-    display:inline-block;
-    position: absolute;  
-    top: 250%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
-    color: black ;
-    border: 5px solid black;   
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.479);
-    font-size: 30px; 
-}
-
-.button:hover {
-    transition-duration: 0.5s;
-    border: 3px solid black;  
-}
+/*Collections*/
 
 
 
-
-
-
-
-
-
-
-
-
+/*Informations*/
 
 .info {
     display: flex;
@@ -198,6 +153,60 @@ h1.titulo {
     margin-left:25px;
 }
 
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 30px 0;
+    background: #fce5ca;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0),#fce5ca );
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0),#fce5ca);
+  }
+ 
+  .logos-slide {
+    display: inline-flex;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide>i {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+  .bloco {
+    margin: 0px 50px 0px 50px;
+  }
+
+
+/*Footer*/
 .fa-circle-arrow-up {  
     font-size: 50px;
     color: rgb(227, 200, 163);
