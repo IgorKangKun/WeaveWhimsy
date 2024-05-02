@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    background-color:#fce5ca;
+}
+
 .main {
     background-color: #fce5ca;
     padding: 50px;
@@ -21,6 +25,10 @@ footer {
 }
 
 /*Navigation Bar*/
+
+.container-fluid{
+    position: sticky;
+} 
 
 .fa-heart{
     margin:10px 15px 0px 10px;
@@ -75,48 +83,44 @@ h1.titulo {
 
 /*NEW ARRIVAL*/
 
-
-.Arrivals{
+#NewArrival {
+    width: 100%;
+    height: auto;
     display: flex;
-    align-items: center;  
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem 1rem;
+    gap: 2rem;
 }
 
-#tituloMain {
+
+.Arrivals {
+    width: calc(100% - 100px);
+    height: auto;
     display: flex;
-    align-items: center;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    font-size: 50px;
-    color: black; 
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425); 
-}
-  
-.Container>p {
-    display: flex;
-    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    overflow: hidden;
 }
 
-.fa-circle-left,.fa-circle-right{
-    font-size: 40px;
-}
+.Container {
 
-.foto1, .foto2, .foto3, .foto4 {
+    width: 300px;
+    min-height: 400px;
+    height: 400px;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 1;
+    box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.432);
     border: 2px solid black;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.485);
-    border-radius: 10px;
-    height: 50vh;
-    width: 20vw;
-    margin: 20px 20px 2px 20px;
 }
-
-.pontos {
-    display: flex;
-    align-items: center;  
-    justify-content: center; 
-}
-
-
-
 
 
 /*Collections*/
