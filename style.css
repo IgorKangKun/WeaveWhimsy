@@ -26,9 +26,6 @@ footer {
 
 /*Navigation Bar*/
 
-.container-fluid{
-    position: sticky;
-} 
 
 .fa-heart{
     margin:10px 15px 0px 10px;
@@ -94,7 +91,6 @@ h1.titulo {
     gap: 2rem;
 }
 
-
 .Arrivals {
     width: calc(100% - 100px);
     height: auto;
@@ -118,14 +114,8 @@ h1.titulo {
     overflow: hidden;
     overflow-y: auto;
     z-index: 1;
-    box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.432);
     border: 2px solid black;
 }
-
-
-/*Collections*/
-
-
 
 /*Informations*/
 
@@ -209,8 +199,8 @@ h1.titulo {
     margin: 0px 50px 0px 50px;
   }
 
-
 /*Footer*/
+
 .fa-circle-arrow-up {  
     font-size: 50px;
     color: rgb(227, 200, 163);
@@ -284,7 +274,6 @@ h1.titulo {
     color: white; 
     text-decoration: none;
 }
-
 
 .tituloFooter{
     color:white;
